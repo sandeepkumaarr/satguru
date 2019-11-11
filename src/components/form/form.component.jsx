@@ -3,7 +3,7 @@ import './form.styles.css';
 
 const FormComponent = () => {
     return (
-            <div className="flex flex-col border text-center items-center rounded shadow-lg" id="formcomponent">
+            <div className="rounded flex flex-col text-center items-center shadow-lg" id="formcomponent">
                     <div className="bg-gray-200 pt-4" id="formcheading">
                         <h1 className="text-2xl font-black">Enquire <span style={{color: "#FF8B38"}}>NOW</span></h1>
                     </div>                    

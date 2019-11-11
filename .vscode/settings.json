@@ -1,12 +1,18 @@
 {
     "cSpell.ignoreWords": [
         "firstname",
+        "formc",
         "formcbutton",
         "formcheading",
         "formcomponent",
         "formcsubheading",
         "header",
+        "headerdescription",
+        "headerimage",
+        "headingbc",
+        "logoc",
         "semibold",
-        "sub"
+        "sub",
+        "subc"
     ]
 }

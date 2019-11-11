@@ -1,0 +1,56 @@
+#headerImage{
+    width: auto;
+    height: 500px;
+
+    background-image: url('https://i.ibb.co/6FxS1X4/burj-khalifa.png');
+    background-size:cover;
+    background-position: center;
+}
+
+#headerImage{
+    position: relative;
+    z-index: 1;
+}
+
+#headingbc{
+    position: absolute;
+    z-index: 3;
+    left: 140px;
+    top: 205px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#phonec{
+    position: absolute;
+    z-index: 3;
+    left: 1100px;
+    top: 60px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+#logoc{
+    position: absolute;
+    width: 183px;
+    height: 125px;
+    left: 129px;
+    z-index: 2;
+}
+
+#formc{
+    background-color: white;
+    position: absolute;
+    top: 180px;
+    left: 902px;
+    z-index: 2;
+}
+
+#desc{
+    position: absolute;
+    left:10px;
+    top: 250px;
+    color: white;
+    
+}

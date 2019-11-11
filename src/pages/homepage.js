@@ -1,7 +1,5 @@
 import React from 'react';
-import FormComponent from '../components/form/form.component';
-import SubHeader from '../components/subheader/subheader.component';
-
+import HeaderComponent from '../components/header/header.component';
 class HomePage extends React.Component {
  
     constructor(props){
@@ -17,11 +15,8 @@ class HomePage extends React.Component {
 render(){
 
     return (
-        <div className="mx-24 my-24 ">
-            <FormComponent/>
-            <div className="mt-8">
-                <SubHeader/>
-            </div>
+        <div className="flex flex-col">
+           <HeaderComponent/>
             
         </div>
     );

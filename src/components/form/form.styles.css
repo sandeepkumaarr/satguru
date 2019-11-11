@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box
-} 
+
 
 #formcomponent{
     width: 413px;
@@ -46,7 +44,5 @@ input[type="submit"]{
     font-family: 'Open Sans', sans-serif;
 }
 
-form{
-    width:100%
-}
+
 
