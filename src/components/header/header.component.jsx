@@ -5,7 +5,7 @@ import SubHeader from '../subheader/subheader.component';
 import { ReactComponent as Logo} from '../../Assets/logo.svg';
 import "./header.styles.css";
 
-const HeaderComponent = () => {
+const HeaderComponent = ({updateInput,stateemail,statename,statemobile,stateofficetype,addUser}) => {
     return (
             <div className="">
                     <div className="" id="headerImage">
@@ -19,7 +19,13 @@ const HeaderComponent = () => {
                         </div>
 
                         <div className="" id="formc">
-                            <FormComponent/>
+                            <FormComponent updateInput={updateInput} 
+                                            stateemail={stateemail}
+                                            statename={statename}
+                                            statemobile={statemobile}
+                                            stateofficetype={stateofficetype}
+                                            addUser={addUser}
+                            />
                         </div>
 
                         <div className="" id="desc">
