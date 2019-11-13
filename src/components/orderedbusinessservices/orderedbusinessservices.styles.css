@@ -14,3 +14,15 @@
       background-color: #FF8B38;
       font-family: 'Open Sans', sans-serif;
   }
+
+
+  @media (min-width: 310px) and (max-width: 768px){
+    #ordbulist{
+      width: auto;
+      height: 265px;
+      background-color: #FF8B38;
+      font-family: 'Open Sans', sans-serif;
+  }
+  
+  }
+  
