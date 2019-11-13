@@ -1,19 +1,31 @@
 {
     "cSpell.ignoreWords": [
+        "buscenimg",
+        "businesscenter",
+        "firsimage",
         "firstname",
         "formc",
         "formcbutton",
         "formcheading",
         "formcomponent",
         "formcsubheading",
+        "fourimages",
         "header",
         "headerdescription",
         "headerimage",
         "headingbc",
         "logoc",
+        "onelist",
+        "orderedbusinessservices",
+        "orderedconcierge",
+        "ordlist",
+        "phonec",
+        "phonecimage",
+        "phonecnum",
         "semibold",
         "sub",
-        "subc"
+        "subc",
+        "twolist"
     ],
     "workbench.colorCustomizations": {
         "activityBar.background": "#1accff",

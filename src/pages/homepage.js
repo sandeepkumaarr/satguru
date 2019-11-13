@@ -12,20 +12,20 @@ class HomePage extends React.Component {
             name: "",
             email:"",
             mobile:"",
-            officetype:""
-
+            officetype:"",           
         }
     }
 
     updateInput = e => {
         this.setState({
-          [e.target.name]: e.target.value,
-          [e.target.email]: e.target.value,
+          [e.target.name]: e.target.value.toLowerCase(),
+          [e.target.email]: e.target.value.toLowerCase(),
           [e.target.mobile]: e.target.value,
-          [e.target.officetype]: e.target.value,
+          [e.target.officetype]: e.target.value.toLowerCase(),
         });
       }
 
+     
       addUser = e => {
         e.preventDefault();
 
@@ -34,16 +34,17 @@ class HomePage extends React.Component {
             name: this.state.name,
             email: this.state.email,
             mobile: this.state.mobile,
-            officetype: this.state.officetype
+            officetype: this.state.officetype,
           });
-
+          
         this.setState({
             name: "",
             email:"",
             mobile:"",
-            officetype:""
+            officetype:"",
         });
         console.log(userRef);
+        
       };
 
 render(){

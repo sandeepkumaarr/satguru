@@ -1,0 +1,12 @@
+#utlist{
+   
+        line-height: 1.5em;
+        list-style-image: url(https://i.ibb.co/VQvBr7S/Shape-2-copy.png);
+      
+}
+
+#utdlist{
+    width: 480px;
+    height: 285px;
+    font-family: 'Open Sans', sans-serif;
+}

@@ -3,6 +3,12 @@ import FormComponent from '../form/form.component';
 import HeaderDescription from '../headerdescription/headerdescription.component';
 import SubHeader from '../subheader/subheader.component';
 import { ReactComponent as Logo} from '../../Assets/logo.svg';
+import BusinessCenter from '../businesscenter/businesscenter.component';
+import FourImages from '../fourimages/fourimages.component';
+import ConciergeServices from '../conciergeservices/conciergeservices.component';
+import BusinessSetupServices from '../businesssetupservices/businesssetupservices.component';
+import OfficeAddress from '../officeaddress/officeaddress.component';
+import FooterComponent from '../footercomponent/footer.component';
 import "./header.styles.css";
 
 const HeaderComponent = ({updateInput,stateemail,statename,statemobile,stateofficetype,addUser}) => {
@@ -47,7 +53,29 @@ const HeaderComponent = ({updateInput,stateemail,statename,statemobile,stateoffi
                         <SubHeader/>
                     </div>
 
-                    
+                    <div className="mt-16 bg-gray-300">
+                        <BusinessCenter/>
+                    </div>
+
+                    <div className="mb-8">
+                        <FourImages/>
+                    </div>
+
+                    <div className="mb-4">
+                        <ConciergeServices/>
+                    </div>
+
+                    <div className="bg-gray-300">
+                        <BusinessSetupServices/>
+                    </div>
+
+                    <div className="bg-gray-900 text-white">
+                        <OfficeAddress/>
+                    </div>
+
+                    <div className="">
+                        <FooterComponent/>
+                    </div>
 
             </div>
     );

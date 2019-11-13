@@ -1,0 +1,16 @@
+#onelist {
+    line-height: 1.5em;
+    list-style-image: url(https://i.ibb.co/fnGCSJ5/Shape-2-copy-4.png);
+  }
+
+#twolist{
+    line-height: 1.5em;
+    list-style-image: url(https://i.ibb.co/fnGCSJ5/Shape-2-copy-4.png);
+  }
+
+  #ordlist{
+      width: 480px;
+      height: 265px;
+      background-color: #FF8B38;
+      font-family: 'Open Sans', sans-serif;
+  }
