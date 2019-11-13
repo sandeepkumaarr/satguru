@@ -14,3 +14,30 @@
       background-color: #FF8B38;
       font-family: 'Open Sans', sans-serif;
   }
+
+
+  @media (min-width: 310px) and (max-width: 767px){
+    #ordlist{
+      width: auto;
+      font-size: 12px;    
+    }
+
+    #onelist{
+        margin-top: -20px;
+        font-size:12px;
+    }
+
+    #twolist{
+      margin-top: -20px;
+      font-size:12px;
+  }
+  
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px){
+     
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1320px){
+    
+  }

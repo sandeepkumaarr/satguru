@@ -45,4 +45,10 @@ input[type="submit"]{
 }
 
 
+@media (min-width: 310px) and (max-width: 768px){
+
+    #formcomponent{
+        width: auto;
+    }
+}
 

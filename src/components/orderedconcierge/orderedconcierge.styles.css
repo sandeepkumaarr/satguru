@@ -10,3 +10,13 @@
     height: 285px;
     font-family: 'Open Sans', sans-serif;
 }
+
+@media (min-width: 310px) and (max-width: 768px){
+
+    #utdlist{
+        width: auto;
+        height: 285px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 130px;
+    }
+}

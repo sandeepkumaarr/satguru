@@ -4,10 +4,10 @@ import HeaderDescription from '../headerdescription/headerdescription.component'
 import SubHeader from '../subheader/subheader.component';
 import { ReactComponent as Logo} from '../../Assets/logo.svg';
 import BusinessCenter from '../businesscenter/businesscenter.component';
-import FourImages from '../fourimages/fourimages.component';
 import ConciergeServices from '../conciergeservices/conciergeservices.component';
 import BusinessSetupServices from '../businesssetupservices/businesssetupservices.component';
 import OfficeAddress from '../officeaddress/officeaddress.component';
+import FirImages from '../frimages/frimages.component';
 import FooterComponent from '../footercomponent/footer.component';
 import "./header.styles.css";
 
@@ -49,16 +49,16 @@ const HeaderComponent = ({updateInput,stateemail,statename,statemobile,stateoffi
                         </div>
                     </div>
 
-                    <div className="mt-6 ml-16">
+                    <div className="mt-6 ml-16" id="subhder">
                         <SubHeader/>
                     </div>
 
-                    <div className="mt-16 bg-gray-300">
+                    <div className="mt-16 bg-gray-300" id="bscenter">
                         <BusinessCenter/>
                     </div>
 
-                    <div className="mb-8">
-                        <FourImages/>
+                    <div className="mb-8" id="forimg">
+                        <FirImages/>
                     </div>
 
                     <div className="mb-4">
@@ -67,7 +67,7 @@ const HeaderComponent = ({updateInput,stateemail,statename,statemobile,stateoffi
 
                     <div className="bg-gray-300">
                         <BusinessSetupServices/>
-                    </div>
+                    </div>           
 
                     <div className="bg-gray-900 text-white">
                         <OfficeAddress/>
@@ -75,7 +75,7 @@ const HeaderComponent = ({updateInput,stateemail,statename,statemobile,stateoffi
 
                     <div className="">
                         <FooterComponent/>
-                    </div>
+                    </div>                   
 
             </div>
     );

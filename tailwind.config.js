@@ -5,7 +5,7 @@ module.exports = {
       width: {
             '112': '28rem', //448px
        
-              }
+              }              
     }
   },
   variants: {},

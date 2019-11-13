@@ -5,7 +5,7 @@ import './businesscenter.styles.css';
 
 const BusinessCenter = () => {
     return (
-            <div className="flex flex-col ml-12">
+            <div id="bccnter" className="flex flex-col ml-0 md:ml-12">
 
                 <div className="text-2xl text-center mb-2 mt-4 font-bold">
                     <h3>Satguru Business Centre for your Business</h3>
@@ -19,11 +19,11 @@ const BusinessCenter = () => {
 
                 <div className="flex flex-row mb-10">
 
-                    <div className="relative" id="buscenimg">
+                    <div className="relative shadow-lg" id="buscenimg">
                         <img src={"https://i.ibb.co/CQG77Hx/Layer-14.png"} alt="office"/>
                     </div>
 
-                    <div id="excoff" className="flex flex-col absolute">
+                    <div id="excoff" className="flex flex-col absolute shadow-lg">
                         <h4 className="text-center text-lg font-medium">Exclusive Offers</h4>
                         <OrderedList/>
                     </div>

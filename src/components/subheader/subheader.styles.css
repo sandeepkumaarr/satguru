@@ -3,3 +3,36 @@
     height: 81px;
     font-family: 'Open Sans', sans-serif;
 }
+
+
+@media (min-width: 310px) and (max-width: 767px){
+
+    #subHeader{
+        width: auto;
+    }
+
+    #image1{
+        display: none;
+    }
+
+    #image2{
+        display: none;
+    }
+
+    #image3{
+        display: none;
+    }
+
+    #image4{
+        display: none;
+    }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+   
+}
+
+@media (min-width: 1024px) and (max-width: 1320px){
+  
+}

@@ -3,7 +3,7 @@ import './fourimages.styles.css';
 
 const FourImages = () => {
     return (
-            <div className="flex flex-row">
+            <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row">
 
                 <div id="firsimage" className="flex flex-col border border-gray-500">
                         <div className="imges">
@@ -11,7 +11,7 @@ const FourImages = () => {
                         </div>
 
                         <div id="firstcon" className="opacity-75 bg-black text-white text-center">
-                            <p>Personal spaces to nurture your <br/>brainstorming</p>
+                            <p>Personal spaces to nurture your <br/>discussions brainstorming</p>
                         </div>                    
                 </div>
 
@@ -21,7 +21,7 @@ const FourImages = () => {
                         </div>
 
                         <div id="secondcon" className="opacity-75 bg-black text-white text-center">
-                            <p>Compact rooms to drive your startup discussions</p>
+                            <p>Compact rooms to drive your startup <br/>discussions</p>
                         </div>
                 </div>
 
@@ -31,7 +31,7 @@ const FourImages = () => {
                         </div>
 
                         <div id="thirdcon" className="opacity-75 bg-black text-white text-center">
-                            <p>Conference facilities to <br/>accommodate exchange of ideas.</p>
+                            <p>Conference facilities to <br/>accommodate exchange of</p>
                         </div>
                 </div>
 
