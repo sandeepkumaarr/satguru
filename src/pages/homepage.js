@@ -12,7 +12,7 @@ class HomePage extends React.Component {
             name: "",
             email:"",
             mobile:"",
-            officetype:"",           
+            officetype:"",
         }
     }
 
@@ -47,6 +47,8 @@ class HomePage extends React.Component {
         
       };
 
+     
+
 render(){
 
     return (
@@ -58,7 +60,10 @@ render(){
            statemobile={this.state.mobile}   
            stateofficetype={this.state.officetype}
            addUser={this.addUser}
+           openModalHandler={this.openModalHandler}
+           
            />
+               
             
         </div>
     );

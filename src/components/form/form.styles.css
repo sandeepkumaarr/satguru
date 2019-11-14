@@ -44,6 +44,12 @@ input[type="submit"]{
     font-family: 'Open Sans', sans-serif;
 }
 
+#formcbutton :hover{
+    
+    background-color: rgb(250, 159, 95);
+    cursor: pointer;    
+}
+
 
 @media (min-width: 310px) and (max-width: 768px){
 
@@ -53,26 +59,26 @@ input[type="submit"]{
     }
 
     input[type="submit"]{
-        width: 290px;
+        width: 250px;
         height: 58px;
         background-color: #FF8B38;
         font-family: 'Open Sans', sans-serif;
     }
 
     input[type="text"]{
-        width: 290px;
+        width: 250px;
         height: 41px;
         font-family: 'Raleway', sans-serif;
     }
     
     input[type="email"]{
-        width: 290px;
+        width: 250px;
         height: 35px;
         font-family: 'Raleway', sans-serif;
     }
     
     input[type="tel"]{
-        width: 290px;
+        width: 250px;
         height: 35px;
         font-family: 'Raleway', sans-serif;
     }

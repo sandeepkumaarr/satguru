@@ -1,7 +1,7 @@
 import React from 'react';
 import './form.styles.css';
 
-const FormComponent = ({updateInput,stateemail,statename,statemobile,stateofficetype,addUser}) => {
+const FormComponent = ({updateInput,stateemail,statename,statemobile,stateofficetype,addUser,openModalHandler}) => {
     return (
             <div className="rounded flex flex-col text-center items-center shadow-lg" id="formcomponent">
                     <div className="bg-gray-200 pt-4" id="formcheading">
@@ -15,7 +15,7 @@ const FormComponent = ({updateInput,stateemail,statename,statemobile,stateoffice
                         <input onChange={updateInput} value={stateofficetype} className="border border-gray-400 m-2 p-4 rounded" type="text" name="officetype" placeholder="Office Type" />
 
                         <div className="mt-4 text-white text-2xl font-extrabold" id="formcbutton">
-                            <input type="submit" value="SUBMIT"/>
+                            <input onClick={openModalHandler} type="submit" value="SUBMIT"/>
                         </div>                        
                     </form>
             </div>

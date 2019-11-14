@@ -46,8 +46,8 @@ const HeaderComponent = ({updateInput,stateemail,statename,statemobile,stateoffi
                             <div id="phonecnum">
                                     <p>+917 56 989 1667</p>
                             </div>
-                        </div>
-                    </div>
+                        </div>                   
+                    </div>                    
 
                     <div className="mt-6 ml-16" id="subhder">
                         <SubHeader/>

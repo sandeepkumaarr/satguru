@@ -56,6 +56,8 @@
     
 }
 
+
+
 @media (min-width: 310px) and (max-width: 767px){
 
     #headingbc{
@@ -76,6 +78,7 @@
         z-index: 2;
     }
 
+    
     #logoc{
         position: absolute;
         width: 183px;
@@ -104,6 +107,8 @@
         margin-top:630px;
         margin-left:-0px;
     }
+
+    
 
     
 }

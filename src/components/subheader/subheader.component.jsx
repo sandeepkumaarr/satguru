@@ -9,7 +9,7 @@ const SubHeader = () => {
                     <h4>Dubai - the perfect launch pad to take your business to a global level.</h4>
                 </div>
 
-                <div className="flex flex-row mt-4" id="subHeaderImages">
+                <div className="flex flex-row md:mt-4" id="subHeaderImages">
                         <div className="flex flex-row mr-4">
                             <img id="image1" className="p-4" src={"https://i.ibb.co/02xJsx9/Layer-12.png"} alt="icons"/>
                             <p className="p-2 mt-3 text-xs text-gray-600">Business hotspot of <br/>global proportions.</p>
