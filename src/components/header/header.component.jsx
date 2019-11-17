@@ -9,74 +9,89 @@ import BusinessSetupServices from '../businesssetupservices/businesssetupservice
 import OfficeAddress from '../officeaddress/officeaddress.component';
 import FirImages from '../frimages/frimages.component';
 import FooterComponent from '../footercomponent/footer.component';
-import "./header.styles.css";
 
 const HeaderComponent = ({updateInput,stateemail,statename,statemobile,stateofficetype,addUser}) => {
     return (
-            <div className="">
-                    <div className="" id="headerImage">
-                        <div className="bg-gray-200" id="logoc">
-                            <Logo/>
-                        </div>
+            <div className="flex flex-col">
+                    <div 
+                        className="w-screen h-auto bg-cover bg-top
+                                    lg:bg-center lg:header-container lg:relative"
+                        style ={ { backgroundImage: "url('https://i.ibb.co/6FxS1X4/burj-khalifa.png')" } }
+                        id="headerImage"
+                    >
+                    
+                            <div className="flex flex-row">
+                                    
+                                    <div className="bg-fifth p-2 rounded-b
+                                                    md:ml-5">
+                                        <Logo/>
+                                    </div>
+                                    
 
-                        <div id="headingbc">
-                            <h2 className="text-3xl">REACH FOR THE SKIES</h2>
-                            <hr className="w-16 mt-2 border-b-2"/>
-                        </div>
-
-                        <div className="" id="formc">
-                            <FormComponent updateInput={updateInput} 
-                                            stateemail={stateemail}
-                                            statename={statename}
-                                            statemobile={statemobile}
-                                            stateofficetype={stateofficetype}
-                                            addUser={addUser}
-                            />
-                        </div>
-
-                        <div className="" id="desc">
-                            <HeaderDescription/>
-                        </div>
-                        
-                        <div className="flex flex-row" id="phonec">
-                            <div className="w-6 h-6 mr-2" id="phonecimage">
-                                <img src={"https://i.ibb.co/k4bNtwk/Layer-33.png"} alt="icon"/>
+                                    <div className="flex flex-row self-center ml-auto p-2
+                                                    lg:p-10"
+                                                    
+                                    >
+                                        <img className="w-8 h-8" src={"https://i.ibb.co/k4bNtwk/Layer-33.png"} alt="icon"/>
+                                        <p className="p-1 text-white">+917 56 989 1667</p>
+                                    </div>
+                                
                             </div>
-                            
-                            <div id="phonecnum">
-                                    <p>+917 56 989 1667</p>
-                            </div>
-                        </div>                   
-                    </div>                    
 
-                    <div className="mt-6 ml-16" id="subhder">
+                        <div className="flex flex-col
+                                        lg:flex-row">
+
+                            <div className="flex flex-col text-white items-center align-center font-semibold content-center mt-8">
+                                    <h2 className="text-3xl">REACH FOR THE SKIES</h2>
+                                    <hr className="w-16 mt-2 border-white"/>
+
+                                    <div className="mt-4 m-3 bg-secondary rounded opacity-75
+                                                    lg:bg-transparent lg:opacity-100 lg:m-10">
+                                        <HeaderDescription/>
+                                    </div>
+                            </div>
+
+                            <div className="bg-white mt-10
+                                            lg:absolute lg:right-0 lg:m-10">
+                                    <FormComponent updateInput={updateInput} 
+                                                    stateemail={stateemail}
+                                                    statename={statename}
+                                                    statemobile={statemobile}
+                                                    stateofficetype={stateofficetype}
+                                                    addUser={addUser}
+                                    />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="mt-2
+                                    md:mt:10 lg:mt-0">
                         <SubHeader/>
                     </div>
 
-                    <div className="mt-16 bg-gray-300" id="bscenter">
+                    <div className="bg-sixth">
                         <BusinessCenter/>
                     </div>
 
-                    <div className="mb-8" id="forimg">
+                    <div className="">
                         <FirImages/>
                     </div>
 
-                    <div className="mb-4">
+                    <div className="mt-6 mb-6">
                         <ConciergeServices/>
                     </div>
 
-                    <div className="bg-gray-300">
+                    <div className="mt-2">
                         <BusinessSetupServices/>
-                    </div>           
-
-                    <div className="bg-gray-900 text-white">
+                    </div>
+                    
+                    <div className="bg-gray-900 text-white mt-4">
                         <OfficeAddress/>
                     </div>
 
                     <div className="">
                         <FooterComponent/>
-                    </div>                   
-
+                    </div>
             </div>
     );
 };

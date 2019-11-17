@@ -1,33 +1,37 @@
 import React from 'react';
-import './subheader.styles.css';
 
 
 const SubHeader = () => {
     return (
-            <div className="flex flex-col" id="subHeader">
-                <div className="text-lg pl-4 font-semibold">
-                    <h4>Dubai - the perfect launch pad to take your business to a global level.</h4>
-                </div>
+            <div className="flex flex-col bg-gray-100"
+            >
+                    <div className="text-xl p-2 font-semibold
+                                    lg:p-4"
+                    >
+                        <h4>Dubai - the perfect launch pad to take your business to a global level.</h4>
+                    </div>
 
-                <div className="flex flex-row md:mt-4" id="subHeaderImages">
-                        <div className="flex flex-row mr-4">
-                            <img id="image1" className="p-4" src={"https://i.ibb.co/02xJsx9/Layer-12.png"} alt="icons"/>
-                            <p className="p-2 mt-3 text-xs text-gray-600">Business hotspot of <br/>global proportions.</p>
+                <div className="flex flex-col text-lg
+                                lg:flex-row lg:text-base"
+                >
+                        <div className="flex flex-row items-center m-4">
+                            <img className="w-10 h-10" src={"https://i.ibb.co/02xJsx9/Layer-12.png"} alt="icons"/>
+                            <p className="px-4">Business hotspot of <br/>global proportions.</p>
                         </div>
 
-                        <div className="flex flex-row mr-4">
-                            <img id="image2" className="p-4" src={"https://i.ibb.co/xfdMyYW/Layer-26.png"} alt="icons"/>
-                            <p className="p-2 mt-3 text-xs text-gray-600">Impressive infrastructure <br/>with future ready technology</p>
+                        <div className="flex flex-row items-center m-4">
+                            <img className="w-9 h-9" src={"https://i.ibb.co/xfdMyYW/Layer-26.png"} alt="icons"/>
+                            <p className="px-4">Impressive infrastructure <br/>with future ready technology</p>
                         </div>
 
-                        <div className="flex flex-row mt-2">
-                                    <div>
-                                        <img id="image3" className="p-1 mt-1" src={"https://i.ibb.co/VtTh1cs/Layer-27.png"} alt="icons"/>
-                                        <img id="image4" className="p-2 -mt-1" src={"https://i.ibb.co/RgbHz7P/Layer-28.png"} alt="icons"/>                            
+                        <div className="flex flex-row items-center m-4">
+                                    <div className="lg:p-2 lg:mt-2">
+                                        <img className="w-8 h-6" src={"https://i.ibb.co/VtTh1cs/Layer-27.png"} alt="icons"/>
+                                        <img className="w-6 h-4 m-2" src={"https://i.ibb.co/RgbHz7P/Layer-28.png"} alt="icons"/>                            
                                     </div>
                                     
                                     <div>
-                                    <p className="p-2 mt-3 text-xs text-gray-600">Trade versatility</p>
+                                    <p className="px-4 lg:px-2">Trade versatility</p>
                                     </div>
                         </div>    
                 </div>

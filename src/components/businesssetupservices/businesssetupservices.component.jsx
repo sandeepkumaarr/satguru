@@ -1,25 +1,18 @@
 import React from 'react';
 import OrderedBusiness from '../orderedbusinessservices/orderedbusinessservices.component';
-import './businesssetupservices.styles.css';
 
 
 const BusinessSetupServices = () => {
     return (
-            <div className="flex flex-col ml-0 md:ml-12">
-
-                <div className="flex flex-row mb-40 md:mb-10">
-
-                    <div className="relative mt-6" id="bussesimg">
-                        <img src={"https://i.ibb.co/Q92p1YT/Layer-22.png"} alt="office"/>
+            <div className="flex flex-col lg:flex-row lg:relative">
+                    <div className="m-2 md:m-3 lg:bc-imagectr lg:p-3">
+                        <img className="md:w-full lg:bc-imagectr"  src={"https://i.ibb.co/Q92p1YT/Layer-22.png"} alt="office"/>
                     </div>
 
-                    <div id="buspara" className="flex flex-col absolute shadow-lg mt-32 md:mt-12 ">
-                        <h4 className="text-center text-lg font-medium">Business Setup Services</h4>
+                    <div className="lg:absolute lg:right-0 lg:mt-16 lg:mr-16">
+                        <h4 className="text-center text-lg font-bold mt-2 lg:text-xl">Business Setup Services</h4>
                         <OrderedBusiness/>
-                    </div>
-                    
-                </div>
-                
+                    </div>               
             </div>
     );
 };

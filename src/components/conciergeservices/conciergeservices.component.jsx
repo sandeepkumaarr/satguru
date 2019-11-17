@@ -1,22 +1,20 @@
 import React from 'react';
 import OrderedConcierge from '../orderedconcierge/orderedconcierge.component';
-import './conciergeservices.styles.css';
 
 const ConciergeServices = () => {
     return (
-            <div className="">
-                <div className="flex flex-row-reverse mb-16 mr-4">                    
-
-                    <div className="relative self-end" id="concenimg">
-                        <img className="" src={"https://i.ibb.co/SPrn1mC/Layer-21.png"} alt="office"/>
-                    </div>   
-
-                    <div id="concoff" className="flex flex-col absolute mt-16 shadow-lg">
-                        <h4 className="text-center text-lg font-medium">Concierge Services</h4>
+            <div className="flex flex-col-reverse
+                            lg:flex-row-reverse lg:relative"
+            >
+                    <div className="lg:absolute lg:left-0 lg:mt-20 lg:m-16">
+                        <h4 className="text-center text-lg font-bold mt-2 lg:text-xl">Concierge Services</h4>
                         <OrderedConcierge/>
-                    </div>                
+                    </div>          
 
-                </div>
+                    <div className="m-2 md:m-3 lg:bc-imagectr lg:p-3" >
+                        <img className="md:w-full lg:bc-imagectr" src={"https://i.ibb.co/SPrn1mC/Layer-21.png"} alt="office"/>
+                    </div>           
+
             </div>
     );
 };

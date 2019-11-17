@@ -52,7 +52,7 @@ class HomePage extends React.Component {
 render(){
 
     return (
-        <div className="flex flex-col">
+        <div className="">
            <HeaderComponent 
            updateInput={this.updateInput}
            stateemail={this.state.email}

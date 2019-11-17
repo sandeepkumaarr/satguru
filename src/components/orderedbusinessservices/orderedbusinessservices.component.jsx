@@ -1,17 +1,20 @@
 import React from 'react';
-import './orderedbusinessservices.styles.css';
 
 
 const OrderedBusiness = () => {
     return (
-            <div className="flex flex-col text-white rounded shadow-md" id="ordbulist">
-                <div className="p-4 mt-2 font-semibold">
+            <div className="flex flex-col bg-primary border rounded m-3 text-white shadow lg:lister-container">
+                <div className="text-center text-lg font-semibold mt-2
+                                md:text-2xl md:text-left md:mx-3
+                                lg:text-xl">
                     <p>Expert Assistance to setup your company in U.A.E</p>
                 </div>
 
-                <div className="flex flex-row ml-4 font-light">
-                    <div className="p-4 text-sm">
-                        <ul id="onebulist">
+                <div className="flex flex-col text-base leading-normal mx-auto mt-6
+                                md:flex-row md:text-lg md:mb-2
+                                lg:text-base lg:font-medium">
+                    <div className="">
+                        <ul style={{listStyleImage: "url('https://i.ibb.co/fnGCSJ5/Shape-2-copy-4.png')"}} >
                             <li>Local Sponsor/<br/>Local Service Agent</li>
                             <li>Trade Name reservation</li>
                             <li>MOU Attestation in<br/>Dubai court</li>
@@ -19,8 +22,10 @@ const OrderedBusiness = () => {
                         </ul>
                     </div>
 
-                    <div className="p-4 text-sm ml-4">
-                        <ul id="twobulist">
+                    <div className="mt-4 mb-2
+                                    md:mt-0 md:ml-16
+                                    lg:ml-20">
+                        <ul style={{listStyleImage: "url('https://i.ibb.co/fnGCSJ5/Shape-2-copy-4.png')"}}>
                                 <li>Establishment card</li>
                                 <li>Immigration card</li>
                                 <li>Medical & FingerPrinting</li>

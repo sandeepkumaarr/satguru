@@ -1,12 +1,21 @@
 module.exports = {
   theme: {
-    extend: {
+    extend:{
 
-      width: {
-            '112': '28rem', //448px
-       
-              }              
-    }
+      fontFamily: {
+        'osans': ['"Open Sans"', 'sans-serif'],
+        'raleway': ['Raleway', 'sans-serif']
+            },
+      colors: {
+              primary: '#FF9B51',
+              secondary:"#86878B",
+              third:"#707070",
+              fourth:"#FF8B38",
+              fifth:"#cbd5e0",
+              sixth:"#edf2f7"              
+            }
+    }  
+
   },
   variants: {},
   plugins: []

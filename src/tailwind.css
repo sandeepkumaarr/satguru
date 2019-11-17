@@ -2,3 +2,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@responsive{
+
+    .form-container{
+        width: 413px;
+        height: 418px;
+    }
+
+    .descri-container{
+        width:575px;
+        height:220px;
+    }
+    .header-container{
+        width: auto;
+        height: 500px;
+    }
+    .lister-container{
+        width: 589px;
+        height: 285px;
+    }
+
+    .bc-imagectr{
+        width: 779px;
+        height: 443px;
+    }
+
+    .fourmages{
+        width: 464px;
+        height: 352px;
+    }
+
+}
+
+@tailwind screens;
+
