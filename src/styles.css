@@ -588,9 +588,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 330px) {
+@media (min-width: 320px) {
   .container {
-    max-width: 330px;
+    max-width: 320px;
   }
 }
 
@@ -40816,7 +40816,7 @@ video {
   }
 }
 
-@media (min-width: 330px) {
+@media (min-width: 320px) {
   .xs\:sr-only {
     position: absolute;
     width: 1px;

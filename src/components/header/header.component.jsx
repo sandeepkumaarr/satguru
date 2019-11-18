@@ -51,8 +51,8 @@ const HeaderComponent = ({updateInput,stateemail,statename,statemobile,stateoffi
                                     </div>
                             </div>
 
-                            <div className="bg-white mt-10
-                                            xs:mb-10
+                            <div className="bg-white mt-10 z-50
+                                            xs:mb-16
                                             lg:absolute lg:right-0 lg:m-10">
                                     <FormComponent updateInput={updateInput} 
                                                     stateemail={stateemail}
@@ -65,7 +65,7 @@ const HeaderComponent = ({updateInput,stateemail,statename,statemobile,stateoffi
                         </div>
                     </div>
 
-                    <div className="mt-2
+                    <div className="mt-2 z-30
                                     md:mt:10 lg:mt-0">
                         <SubHeader/>
                     </div>
