@@ -29,7 +29,7 @@ const FormComponent = ({updateInput,stateemail,statename,statemobile,stateoffice
                                             focus:shadow-outline focus:border-secondary
                                             md:h-16 md:m-6
                                             lg:h-10 lg:m-1"
-                               type="text" name="name" placeholder="Your Name"
+                               type="text" name="name" placeholder="Your Name" required
                          />
                         <input onChange={updateInput}
                                value={stateemail}
@@ -38,7 +38,7 @@ const FormComponent = ({updateInput,stateemail,statename,statemobile,stateoffice
                                             focus:shadow-outline focus:border-secondary
                                             md:h-16 md:m-6
                                             lg:h-10 lg:m-1"
-                               type="email" name="email" placeholder="Email Address"
+                               type="email" name="email" placeholder="Email Address" required
                         />
                         <input onChange={updateInput}
                                value={statemobile}
@@ -47,7 +47,7 @@ const FormComponent = ({updateInput,stateemail,statename,statemobile,stateoffice
                                             focus:shadow-outline focus:border-secondary
                                             md:h-16 md:m-6
                                             lg:h-10 lg:m-1"
-                               type="tel" name="mobile" placeholder="Phone Number"
+                               type="tel" name="mobile" placeholder="Phone Number" required
                         />
                         <input onChange={updateInput}
                                value={stateofficetype}
