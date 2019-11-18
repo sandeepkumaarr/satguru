@@ -14,7 +14,7 @@ const FormComponent = ({updateInput,stateemail,statename,statemobile,stateoffice
                     </h1>
 
                     <h5 
-                        className="text-2xl text-secondary p-8 -mt-4
+                        className="text-2xl text-secondary p-8 -mt-4 font-raleway
                                     md:text-5xl md:p-4 md:-mb-6
                                     lg:text-xl lg:p-8 lg:-m-1"
                                 

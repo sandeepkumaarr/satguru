@@ -12,9 +12,9 @@ import FooterComponent from '../footercomponent/footer.component';
 
 const HeaderComponent = ({updateInput,stateemail,statename,statemobile,stateofficetype,addUser}) => {
     return (
-            <div className="flex flex-col">
+            <div className="flex flex-col font-osans">
                     <div 
-                        className="w-screen h-auto bg-cover bg-top
+                        className="w-screen h-auto bg-cover bg-top 
                                     lg:bg-center lg:header-container lg:relative"
                         style ={ { backgroundImage: "url('https://i.ibb.co/6FxS1X4/burj-khalifa.png')" } }
                         id="headerImage"
@@ -42,7 +42,7 @@ const HeaderComponent = ({updateInput,stateemail,statename,statemobile,stateoffi
                                         lg:flex-row">
 
                             <div className="flex flex-col text-white items-center align-center font-semibold content-center mt-8">
-                                    <h2 className="text-3xl">REACH FOR THE SKIES</h2>
+                                    <h2 className="text-3xl font-raleway">REACH FOR THE SKIES</h2>
                                     <hr className="w-16 mt-2 border-white"/>
 
                                     <div className="mt-4 m-3 bg-secondary rounded opacity-75
@@ -51,7 +51,8 @@ const HeaderComponent = ({updateInput,stateemail,statename,statemobile,stateoffi
                                     </div>
                             </div>
 
-                            <div className="bg-white mt-10 z-50
+                            <div className="bg-white mt-10 z-50 mb-4
+                                            md:mb-0
                                             lg:absolute lg:right-0 lg:m-10">
                                     <FormComponent updateInput={updateInput} 
                                                     stateemail={stateemail}
