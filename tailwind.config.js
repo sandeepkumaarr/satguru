@@ -13,6 +13,11 @@ module.exports = {
               fourth:"#FF8B38",
               fifth:"#cbd5e0",
               sixth:"#edf2f7"              
+            },
+
+            screens: {
+              'xs': '330px', 
+              
             }
     }  
 
