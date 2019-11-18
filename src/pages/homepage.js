@@ -17,12 +17,16 @@ class HomePage extends React.Component {
     }
 
     updateInput = e => {
+
+      
         this.setState({
           [e.target.name]: e.target.value.toLowerCase(),
           [e.target.email]: e.target.value.toLowerCase(),
           [e.target.mobile]: e.target.value,
           [e.target.officetype]: e.target.value.toLowerCase(),
         });
+      
+        
       }
 
      

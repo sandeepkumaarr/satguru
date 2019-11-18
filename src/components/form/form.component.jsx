@@ -3,7 +3,7 @@ import React from 'react';
 const FormComponent = ({updateInput,stateemail,statename,statemobile,stateofficetype,addUser,openModalHandler}) => {
     return (
             <div className="flex flex-col justify-between text-center w-screen h-screen
-                            sm:
+                            
                             lg:form-container lg:shadow">
                     <h1 
                         className="text-4xl bg-sixth p-4 font-bold
